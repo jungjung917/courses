@@ -1,17 +1,18 @@
 ---
-title       : Some basic notation and background
-subtitle    : Regression
-author      : Brian Caffo, PhD
-job         : Johns Hopkins Bloomberg School of Public Health
-logo        : bloomberg_shield.png
-framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
-highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : tomorrow      # 
+title: "Some basic notation and background"
+author: "Brian Caffo, PhD"
+highlighter: highlight.js
+output: html_document
+job: Johns Hopkins Bloomberg School of Public Health
+logo: bloomberg_shield.png
+mode: selfcontained
+hitheme: tomorrow
+subtitle: Regression
+framework: io2012
 url:
-  lib: ../../libraries
   assets: ../../assets
-widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
+  lib: ../../libraries
+widgets: mathjax
 ---
 
 ## Some basic definitions
@@ -57,7 +58,7 @@ The the mean of the $\tilde X_i$ is 0.
 
 ---
 
-## The emprical standard deviation and variance
+## The empirical standard deviation and variance
 
 * Define the empirical variance as 
 $$
